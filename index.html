@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de venda de camisas.">
+    <meta name="palavras-chave" content="camisas, moda, vestuário">
+    <meta name="author" content="Elvis">
+    <title>Site de Venda de Camisas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: blue;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: black;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: blue;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        .product {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .product h3 {
+            color: black;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .product p {
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        .product button {
+            background-color: black;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .product button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: blue;
+            color: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        @media screen and (max-width: 768px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav ul li a {
+                font-size: 14px;
+            }
+
+            .product {
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+
+            .product h3 {
+                font-size: 18px;
+                margin-bottom: 5px;
+            }
+
+            .product p {
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+
+            .product button {
+                padding: 5px 10px;
+                font-size: 14px;
+            }
+
+            footer {
+                font-size: 12px;
+            }
+        }
+
+        .buy-link {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .buy-link:hover {
+            background-color: #ddd;
+        }
+
+        .site-subtitle {
+            font-size: 24px;
+            color: white;
+        }
+
+        @media (max-width: 480px) {
+            .product-details {
+                text-align: center;
+            }
+
+            .product-details img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            form label,
+            form input,
+            form button {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product-details {
+                text-align: center;
+            }
+
+            .product-details img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .product-details.violin img {
+                max-width: 80%;
+            }
+
+            .product-details.piano img {
+                max-width: 90%;
+            }
+
+            form label,
+            form input,
+            form button {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="site-title">Descubra nossa loja de camisas.</h1>
+        <h2 class="site-subtitle">Vista-se com estilo.</h2>
+    </header>
+
+    <main>
+        <div class="description">
+            <h2>Descubra nossa loja de camisas.</h2>
+            <p>Bem-vindo à nossa loja de camisas, o lugar perfeito para os amantes da moda encontrarem as melhores opções de vestuário. Aqui, encontrará uma vasta seleção de camisas de alta qualidade e preços competitivos.</p>
+            <p>Com minha experiência no mercado, estou pronto para ajudá-lo a encontrar a camisa perfeita que satisfaça suas necessidades e preferências de estilo. Garanto-lhe o acesso aos melhores produtos disponíveis.</p>
+            <p>Além disso, proporciono um ambiente acolhedor e simpático onde pode experimentar as camisas. Estou empenhado em fornecer um serviço excepcional ao cliente e uma experiência de compra memorável.</p>
+            <p>Venha nos visitar. Estou ansioso para ajudá-lo a encontrar a camisa dos seus sonhos e fazer parte da sua jornada de estilo.</p>
+        </div>
+
+        <div class="product slide">
+            <a href="about.html">
+                <img src="assets/1.jpg" alt="Camisa 1" />
+                <h3>Camisa Casual</h3>
+                <p>Preço: R$90,00</p>
+              
+            </a>
+        </div>
+
+        <div class="product slide">
+            <a href="about2.html">
+                <img src="assets/2.jpg" alt="Camisa 2" />
+                <h3>Camisa Social</h3>
+                <p>Preço: R$90,00</p>
+                
+            </a>
+        </div>
+
+        <div class="product slide">
+            <a href="about3.html">
+                <img src="assets/3.jpg" alt="Camisa 3" />
+                <h3>Camisa Polo</h3>
+                <p>Preço: R$90,00</p>
+                
+            </a>
+        </div>
+
+        <div class="product slide">
+            <a href="about4.html">
+                <img src="assets/4.avif" alt="Camisa 4" />
+                <h3>Camisa Estampada</h3>
+                <p>Preço: R$90,00</p>
+               
+            </a>
+        </div>
+
+        <div class="product slide">
+            <a href="about5.html">
+                <img src="assets/5.avif" alt="Camisa 3" />
+                <h3>Camisa Polo</h3>
+                <p>Preço: R$90,00</p>
+                
+            </a>
+        </div>
+
+        <div class="product slide">
+            <a href="about6.html">
+                <img src="assets/6.avif" alt="Camisa 3" />
+                <h3>Camisa Polo</h3>
+                <p>Preço: R$90,00</p>
+                
+            </a>
+        </div>
+
+        <div class="product slide">
+            <a href="about7.html">
+                <img src="assets/7.avif" alt="Camisa 3" />
+                <h3>Camisa Polo</h3>
+                <p>Preço: R$90,00</p>
+                
+            </a>
+        </div>
+
+        <div class="product slide">
+            <a href="about8.html">
+                <img src="assets/8.avif" alt="Camisa 3" />
+                <h3>Camisa Polo</h3>
+                <p>Preço: R$90,00</p>
+                
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loja de Camisas.</p>
+        <p>Entre em contato: (13) 981430940</p>
+        <p>Email: elvispereira070@gmail.com</p>
+        <p>&copy; 2024 Descubra nossa loja de camisas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
